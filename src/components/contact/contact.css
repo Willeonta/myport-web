@@ -1,0 +1,55 @@
+/* .contact-section {
+    background-image: url(../../assets/images/33.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} */
+
+.cont h6 {
+    color: #4033a7;
+    margin-top: 15px;
+}
+
+.single-info__box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid #7865ff;
+    margin-bottom: 35px;
+    transition: all .3s ease;
+}
+
+.single-info__box:hover {
+    cursor: pointer;
+    border: 1px solid #7865ff;
+    background: transparent;
+
+}
+
+.single-info__box p {
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+    color: #4033a7;
+}
+
+.single-info__box h6 {
+    color: #4033a7;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+
+/* ================================= responsive devices ================================ */
+
+@media(max-width: 992px) {
+    .single-info__box h6 {
+        font-size: 0.8rem;
+    }
+
+    .single-info__box p {
+        font-size: 0.7rem;
+    }
+}

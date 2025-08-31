@@ -1,0 +1,21 @@
+footer {
+    background-color: #f9f9f9;
+}
+
+.footer {
+    border-top: 1px solid #7765ff85;
+    padding-top: 30px;
+}
+
+.footer p {
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: blue;
+}
+
+/* ============================ responsive devices ============================ */
+@media(max-width: 992px) {
+    .footer p {
+        font-size: 0.7rem;
+    }
+}

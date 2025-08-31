@@ -1,0 +1,88 @@
+/* .experience-section {
+    background-image: url(../../assets/images/43.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+} */
+
+.experience-conatiner {
+    padding: 30px;
+    background: #132347;
+    border-radius: 10px;
+    border-bottom: 1px solid #7865ff;
+    transition: all .4s ease-in-out;
+}
+
+.experience-conatiner:hover {
+    transform: translateY(-7px);
+}
+
+.single-experience {
+    position: relative;
+    padding: 10px 30px;
+    z-index: 79;
+}
+
+.single-experience::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    content: '';
+    background: #7865ff;
+    color: #7865ff;
+    z-index: 90;
+}
+
+.experience-icon {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    color: #7865ff;
+    font-size: 1.2rem;
+    z-index: 91;
+}
+
+.single-experience h5 {
+    font-size: 1.2rem;
+    opacity: 75%;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #fff!important;
+}
+
+/* .single-experience h5 {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+} */
+
+.single-experience p {
+    font-weight: 300;
+    line-height: 30px;
+    font-size: .9rem;
+}
+
+/* =============================== Responsive on mobile devices =============================== */
+
+@media(width: 992px) {
+    
+    .single-experience h6 {
+        font-size: 0.9rem;
+    }
+
+    .single-experience h5 {
+        font-size: 0.9rem;
+        margin-bottom: 10px;
+    }
+
+    .single-experience p {
+        font-size: .6rem;
+        line-height: 28px;
+    }
+
+    .experience-conatiner {
+        margin-bottom: 60px;
+    }
+}

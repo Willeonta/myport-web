@@ -1,0 +1,49 @@
+
+.service-top h6 {
+    color: #7865ff;
+    margin-bottom: 15px;
+}
+
+.single-service {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    /* border-bottom: 1px solid #4f3cdb; */
+    transition: all .7s ease-in-out;
+}
+
+.single-service:hover {
+    transform: translateY(-15px);
+}
+
+.single-service h2 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #132347;
+}
+
+.single-service p {
+    font-weight: 300;
+    line-height: 30px;
+    color: #132347;
+}
+
+.service-icon i{
+    color: #aca4eb;
+    font-size: 2.2rem;
+}
+
+/* ================================== Responsive on the mobile devices =================================== */
+
+@media (max-width: 992px) {
+    .single-service h2 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+
+    .single-service p {
+        font-size: 0.7rem;
+        line-height: 28px;
+    }
+}
